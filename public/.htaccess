@@ -1,0 +1,24 @@
+# Proper MIME type for JavaScript modules
+<IfModule mod_mime.c>
+  AddType text/javascript js mjs
+</IfModule>
+
+# Fallback for GitHub Pages
+<IfModule mod_headers.c>
+  <FilesMatch "\.js$">
+    Header set Content-Type "text/javascript"
+  </FilesMatch>
+  <FilesMatch "\.mjs$">
+    Header set Content-Type "text/javascript"
+  </FilesMatch>
+</IfModule>
+
+# Redirect all paths to index.html for SPA routing
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
