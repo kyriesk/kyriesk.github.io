@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kyriesk.github.io/src",
+  "homepage": "https://kyriesk.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "node deploy.js",
+    "deploy": "gh-pages -b main -d build",
     "custom-deploy": "node deploy.js"
   },
   "dependencies": {
