@@ -1,0 +1,32 @@
+/* App-specific styles that complement Tailwind CSS */
+.logo {
+  height: 3rem;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 0.5em var(--primary-color));
+}
+
+/* CSS Variables for easier theming if needed */
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #0ea5e9;
+  --accent-color: #10b981;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Any additional custom animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
