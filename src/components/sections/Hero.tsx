@@ -36,11 +36,11 @@ const Hero = () => {
             </div>
             
             <div className="flex items-center gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/kyriesk" target="_blank" rel="noopener noreferrer" 
                 className="text-xl hover:text-indigo-600 transition-colors" aria-label="GitHub">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.linkedin.com/in/nox-zhao-a10a18317/" target="_blank" rel="noopener noreferrer" 
                 className="text-xl hover:text-indigo-600 transition-colors" aria-label="LinkedIn">
                 <FaLinkedin />
               </a>
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="relative w-96 h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 to-blue-500 opacity-20 rounded-full"></div>
               <div className="absolute inset-4 bg-white rounded-full flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span>
+                <span className="text-6xl">👩‍💻</span>
               </div>
             </div>
           </motion.div>

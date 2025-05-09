@@ -185,7 +185,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Location</h4>
-                    <p className="text-gray-600">San Francisco, California, USA</p>
+                    <p className="text-gray-600">Melbourne, VIC, Australia</p>
                   </div>
                 </div>
                 
@@ -196,7 +196,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-bold mb-1">Phone</h4>
                     <a href="tel:+11234567890" className="hover:text-indigo-600 transition-colors">
-                      +1 (123) 456-7890
+                      +61 (123) 456-7890
                     </a>
                   </div>
                 </div>
