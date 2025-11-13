@@ -18,9 +18,9 @@ interface Skill {
 const skillsData: Skill[] = [
   { name: 'React', icon: <FaReact />, level: 9, color: '#61DAFB', category: 'frontend' },
   { name: 'TypeScript', icon: <SiTypescript />, level: 8, color: '#3178C6', category: 'frontend' },
-  { name: 'JavaScript', icon: <FaJs />, level: 9, color: '#F7DF1E', category: 'frontend' },
+  { name: 'JavaScript', icon: <FaJs />, level: 8, color: '#F7DF1E', category: 'frontend' },
   { name: 'HTML5', icon: <FaHtml5 />, level: 10, color: '#E34F26', category: 'frontend' },
-  { name: 'CSS3', icon: <FaCss3Alt />, level: 9, color: '#1572B6', category: 'frontend' },
+  { name: 'CSS3', icon: <FaCss3Alt />, level: 10, color: '#1572B6', category: 'frontend' },
   { name: 'Next.js', icon: <SiNextdotjs />, level: 7, color: '#000000', category: 'frontend' },
   { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 8, color: '#06B6D4', category: 'frontend' },
   

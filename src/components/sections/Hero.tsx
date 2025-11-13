@@ -20,7 +20,7 @@ const Hero = () => {
           >
             <span className="text-lg md:text-xl text-indigo-600 font-medium mb-2">👋 Hello there! I'm</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent">Full Stack</span> Developer
+              <span className="bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent">Nox Zhao</span> Full Stack Developer
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
               I build exceptional and accessible digital experiences for the web. Focused on creating intuitive and high-performing applications.

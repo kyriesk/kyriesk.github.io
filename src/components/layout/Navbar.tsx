@@ -37,7 +37,7 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <a href="#" className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent">DevPortfolio</a>
+          <a href="#" className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent">Nox's DevPortfolio</a>
         </motion.div>
 
         {/* Desktop Menu */}

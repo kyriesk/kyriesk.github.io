@@ -82,7 +82,7 @@ const About = () => {
 
             <div className="flex flex-wrap gap-4">
               <a href="#projects" className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">View Projects</a>
-              <a href="/NoxZhao_resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 font-medium px-6 py-3 rounded-lg transition-colors">Download Resume</a>
+              <a href="/NoxZhao-resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 font-medium px-6 py-3 rounded-lg transition-colors">Download Resume</a>
             </div>
           </motion.div>
         </div>

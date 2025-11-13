@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">DevPortfolio</h3>
+            <h3 className="text-xl font-bold mb-4">Nox's DevPortfolio</h3>
             <p className="text-gray-300">
               A modern portfolio showcasing my skills, projects, and experience as a developer.
             </p>
@@ -28,22 +28,22 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-indigo-400 transition-colors">
+              <a href="https://github.com/kyriesk" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-indigo-400 transition-colors">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-indigo-400 transition-colors">
+              <a href="https://www.linkedin.com/in/nox-zhao-a10a18317/" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-indigo-400 transition-colors">
                 <FaLinkedin />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-xl hover:text-indigo-400 transition-colors">
                 <FaTwitter />
               </a>
-              <a href="mailto:contact@example.com" className="text-xl hover:text-indigo-400 transition-colors">
+              <a href="mailto:s223733951@deakin.edu.au" className="text-xl hover:text-indigo-400 transition-colors">
                 <FaEnvelope />
               </a>
             </div>
             <div className="mt-4">
-              <a href="mailto:contact@example.com" className="text-gray-300 hover:text-white transition-opacity">
-                contact@example.com
+              <a href="mailto:s223733951@deakin.edu.au" className="text-gray-300 hover:text-white transition-opacity">
+                s223733951@deakin.edu.au
               </a>
             </div>
           </div>

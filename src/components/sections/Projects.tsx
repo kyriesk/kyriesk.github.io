@@ -15,8 +15,8 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'Shipment-Tracker',
-    description: 'A blockchain-based decentralized application for tracking shipment milestones.',
+    title: 'Shipment Tracker',
+  description: 'A decentralized blockchain app for creating shipments, adding milestones, tracking progress, and verifying delivery with transparent, immutable records and no single point of failure.',
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-4pFI8psSI0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2f788cfb383c42ab8ec12de4eb39c310799279f64d251a3f4be335ba0d40a3c4',
     tags: ['Solidity', 'JavaScript', 'CSS', 'HTML'],
     githubUrl: 'https://github.com/kyriesk/Shipment-Tracker',
@@ -25,9 +25,9 @@ const projectsData: Project[] = [
   {
     id: 2,
     title: 'Pet Pat',
-    description: 'A Pet Grooming Online Booking System, .',
+  description: 'A pet grooming booking app with secure user authentication, pet profile management, service catalog, appointment scheduling and management, and a mobile-friendly Materialize CSS interface.',
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.Ob3sSCeLBfgYYzaGhn9QeQHaE8%3Fpid%3DApi&f=1&ipt=f5e4dd8a5b33ac680cb35d9c84a2c9e00b79b3d9b1aa2d3fb2ecfb41d7436d87&ipo=images',
-    tags: ['EJS', 'JavaScript', 'Tailwind CSS', 'PostgreSQL'],
+    tags: ['EJS', 'JavaScript', 'Materialize CSS', 'MongoDB', 'Node.js', 'Express.js'],
     githubUrl: 'https://github.com/kyriesk/pet-pat',
     liveUrl: 'https://example.com'
   },
