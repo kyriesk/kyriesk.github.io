@@ -26,7 +26,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            {/* You can replace this with an actual image */}
+            {/* can replace this with an actual image */}
             <div className="bg-white p-6 rounded-lg shadow-lg relative overflow-hidden">
               <div className="absolute w-32 h-32 bg-indigo-600 opacity-10 rounded-full -top-10 -left-10"></div>
               <div className="absolute w-32 h-32 bg-blue-500 opacity-10 rounded-full -bottom-10 -right-10"></div>
@@ -46,8 +46,8 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold mb-2">Who I Am</h3>
               <p className="text-gray-600">
-                I'm a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. 
-                I enjoy solving complex problems and creating intuitive, responsive web applications.
+                I'm a Final-year Master of Information Technology student at Deakin University majoring in Software Engineering, with hands-on experience in full-stack web development and AI-driven programming. 
+                Led backend team for the Melbourne Open Data Playground project.
               </p>
             </div>
 
@@ -82,7 +82,7 @@ const About = () => {
 
             <div className="flex flex-wrap gap-4">
               <a href="#projects" className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">View Projects</a>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 font-medium px-6 py-3 rounded-lg transition-colors">Download Resume</a>
+              <a href="/NoxZhao_resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 font-medium px-6 py-3 rounded-lg transition-colors">Download Resume</a>
             </div>
           </motion.div>
         </div>

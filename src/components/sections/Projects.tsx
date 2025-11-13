@@ -15,56 +15,29 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce platform with user authentication, product management, shopping cart, and payment processing.',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    githubUrl: 'https://github.com',
+    title: 'Shipment-Tracker',
+    description: 'A blockchain-based decentralized application for tracking shipment milestones.',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-4pFI8psSI0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2f788cfb383c42ab8ec12de4eb39c310799279f64d251a3f4be335ba0d40a3c4',
+    tags: ['Solidity', 'JavaScript', 'CSS', 'HTML'],
+    githubUrl: 'https://github.com/kyriesk/Shipment-Tracker',
     liveUrl: 'https://example.com'
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, task assignments, and progress tracking.',
-    image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91',
-    tags: ['React', 'Firebase', 'Tailwind CSS'],
-    githubUrl: 'https://github.com',
+    title: 'Pet Pat',
+    description: 'A Pet Grooming Online Booking System, .',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.Ob3sSCeLBfgYYzaGhn9QeQHaE8%3Fpid%3DApi&f=1&ipt=f5e4dd8a5b33ac680cb35d9c84a2c9e00b79b3d9b1aa2d3fb2ecfb41d7436d87&ipo=images',
+    tags: ['EJS', 'JavaScript', 'Tailwind CSS', 'PostgreSQL'],
+    githubUrl: 'https://github.com/kyriesk/pet-pat',
     liveUrl: 'https://example.com'
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'An interactive weather dashboard that displays current and forecasted weather data using external APIs.',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b',
-    tags: ['JavaScript', 'APIs', 'CSS'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
-  },
-  {
-    id: 4,
-    title: 'Blog Platform',
-    description: 'A content management system for blogs with rich text editing, commenting, and user management features.',
-    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643',
-    tags: ['Next.js', 'PostgreSQL', 'Auth0'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
-  },
-  {
-    id: 5,
-    title: 'Fitness Tracker',
-    description: 'A mobile-friendly fitness tracking application to monitor workouts, nutrition, and progress over time.',
-    image: 'https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0',
-    tags: ['React Native', 'GraphQL', 'AWS'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
-  },
-  {
-    id: 6,
-    title: 'Chat Application',
-    description: 'A real-time chat application with private messaging, group chats, and file sharing capabilities.',
-    image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a',
-    tags: ['Socket.io', 'Express', 'React'],
-    githubUrl: 'https://github.com',
+    title: 'Melbourne OpenData Playground',
+    description: "A educational platform and collaborative project with the City of Melbourne, seeks to enhance the utilization of Open Data by businesses, researchers, and software developers.",
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.KSKu6UqdUupwcxRpYPQGQAHaDt%3Fpid%3DApi&f=1&ipt=40a424933138550d804555f6ea91af75d5b89ecd0ddbb1fee5f5368c99b94374&ipo=images',
+    tags: ['JavaScript', 'APIs', 'HTML', 'Tailwind CSS', 'React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+    githubUrl: 'https://github.com/Chameleon-company/MOP-Code',
     liveUrl: 'https://example.com'
   },
 ];
@@ -151,7 +124,7 @@ const Projects = () => {
                   >
                     <FaGithub /> Code
                   </a>
-                  <a 
+                  {/* <a 
                     href={project.liveUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -159,7 +132,7 @@ const Projects = () => {
                     aria-label="View live project"
                   >
                     <FaExternalLinkAlt /> Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </motion.div>

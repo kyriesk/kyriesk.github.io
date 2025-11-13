@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import { 
   FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, 
-  FaDocker, FaDatabase, FaPython, FaFigma, FaAws
+  FaDocker, FaDatabase, FaPython, FaFigma,
+  FaCloud
 } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiGraphql } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb } from 'react-icons/si';
 import type { JSX } from 'react/jsx-runtime';
 
 interface Skill {
@@ -25,13 +26,13 @@ const skillsData: Skill[] = [
   
   { name: 'Node.js', icon: <FaNodeJs />, level: 8, color: '#339933', category: 'backend' },
   { name: 'MongoDB', icon: <SiMongodb />, level: 7, color: '#47A248', category: 'backend' },
-  { name: 'GraphQL', icon: <SiGraphql />, level: 7, color: '#E10098', category: 'backend' },
+  { name: 'PostgreSQL', icon: <FaDatabase />, level: 7, color: '#336791', category: 'backend' },
   { name: 'SQL', icon: <FaDatabase />, level: 8, color: '#336791', category: 'backend' },
-  { name: 'Python', icon: <FaPython />, level: 6, color: '#3776AB', category: 'backend' },
+  { name: 'Python', icon: <FaPython />, level: 8, color: '#3776AB', category: 'backend' },
   
   { name: 'Git', icon: <FaGitAlt />, level: 9, color: '#F05032', category: 'tools' },
   { name: 'Docker', icon: <FaDocker />, level: 7, color: '#2496ED', category: 'tools' },
-  { name: 'AWS', icon: <FaAws />, level: 6, color: '#FF9900', category: 'tools' },
+  { name: 'Azure', icon: <FaCloud />, level: 6, color: '#007FFF', category: 'tools' },
   { name: 'Figma', icon: <FaFigma />, level: 7, color: '#F24E1E', category: 'tools' },
 ];
 
