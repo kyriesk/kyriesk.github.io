@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaCode, FaLaptopCode, FaServer } from 'react-icons/fa';
+import eventImage from '../../assets/event.jpg';
 
 const About = () => {
   return (
@@ -31,7 +32,11 @@ const About = () => {
               <div className="absolute w-32 h-32 bg-indigo-600 opacity-10 rounded-full -top-10 -left-10"></div>
               <div className="absolute w-32 h-32 bg-blue-500 opacity-10 rounded-full -bottom-10 -right-10"></div>
               <div className="aspect-w-4 aspect-h-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-6xl"><img src="src\assets\event.jpg" alt="event image"></img> </span>
+                <img
+                  src={eventImage}
+                  alt="event image"
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </motion.div>
