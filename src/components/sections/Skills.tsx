@@ -4,7 +4,7 @@ import {
   FaDocker, FaDatabase, FaPython, FaFigma,
   FaCloud
 } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiCsharp, SiCplusplus, SiGooglecloud, SiKubernetes } from 'react-icons/si';
 import type { JSX } from 'react/jsx-runtime';
 
 interface Skill {
@@ -29,11 +29,15 @@ const skillsData: Skill[] = [
   { name: 'PostgreSQL', icon: <FaDatabase />, level: 7, color: '#336791', category: 'backend' },
   { name: 'SQL', icon: <FaDatabase />, level: 8, color: '#336791', category: 'backend' },
   { name: 'Python', icon: <FaPython />, level: 8, color: '#3776AB', category: 'backend' },
+  { name: 'C#', icon: <SiCsharp />, level: 8, color: '#239120', category: 'backend' },
+  { name: 'C++', icon: <SiCplusplus />, level: 8, color: '#00599C', category: 'backend' },
   
   { name: 'Git', icon: <FaGitAlt />, level: 9, color: '#F05032', category: 'tools' },
   { name: 'Docker', icon: <FaDocker />, level: 7, color: '#2496ED', category: 'tools' },
   { name: 'Azure', icon: <FaCloud />, level: 6, color: '#007FFF', category: 'tools' },
   { name: 'Figma', icon: <FaFigma />, level: 7, color: '#F24E1E', category: 'tools' },
+  { name: 'GCP', icon: <SiGooglecloud />, level: 6, color: '#4285F4', category: 'tools' },
+  { name: 'Kubernetes', icon: <SiKubernetes />, level: 8, color: '#326CE5', category: 'tools' },
 ];
 
 const Skills = () => {

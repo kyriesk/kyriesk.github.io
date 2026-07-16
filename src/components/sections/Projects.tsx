@@ -15,15 +15,24 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'Shipment Tracker',
-  description: 'A decentralized blockchain app for creating shipments, adding milestones, tracking progress, and verifying delivery with transparent, immutable records and no single point of failure.',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-4pFI8psSI0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2f788cfb383c42ab8ec12de4eb39c310799279f64d251a3f4be335ba0d40a3c4',
-    tags: ['Solidity', 'JavaScript', 'CSS', 'HTML'],
-    githubUrl: 'https://github.com/kyriesk/Shipment-Tracker',
+    title: 'Melbourne OpenData Playground',
+    description: "A educational platform and collaborative project with the City of Melbourne, seeks to enhance the utilization of Open Data by businesses, researchers, and software developers.",
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.KSKu6UqdUupwcxRpYPQGQAHaDt%3Fpid%3DApi&f=1&ipt=40a424933138550d804555f6ea91af75d5b89ecd0ddbb1fee5f5368c99b94374&ipo=images',
+    tags: ['JavaScript', 'APIs', 'HTML', 'Tailwind CSS', 'React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+    githubUrl: 'https://github.com/Chameleon-company/MOP-Code',
     liveUrl: 'https://example.com'
   },
   {
     id: 2,
+    title: 'SplashKit',
+    description: "SplashKit is a beginner's all-purpose software toolkit. Widely used across multipul univeristies such as RMIT, Monash University and Deakin University.",
+    image: 'https://splashkit.io/_astro/box.BaDlktJ0_1JNDfN.webp',
+    tags: ['C#', 'C++', 'Testing', 'Catch2', '.net', 'Network', 'CI/CD', 'Linux'],
+    githubUrl: 'https://github.com/kyriesk/splashkit-core',
+    liveUrl: 'https://example.com'
+  },
+  {
+    id: 3,
     title: 'Pet Pat',
   description: 'A pet grooming booking app with secure user authentication, pet profile management, service catalog, appointment scheduling and management, and a mobile-friendly Materialize CSS interface.',
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.Ob3sSCeLBfgYYzaGhn9QeQHaE8%3Fpid%3DApi&f=1&ipt=f5e4dd8a5b33ac680cb35d9c84a2c9e00b79b3d9b1aa2d3fb2ecfb41d7436d87&ipo=images',
@@ -32,13 +41,14 @@ const projectsData: Project[] = [
     liveUrl: 'https://example.com'
   },
   {
-    id: 3,
-    title: 'Melbourne OpenData Playground',
-    description: "A educational platform and collaborative project with the City of Melbourne, seeks to enhance the utilization of Open Data by businesses, researchers, and software developers.",
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.KSKu6UqdUupwcxRpYPQGQAHaDt%3Fpid%3DApi&f=1&ipt=40a424933138550d804555f6ea91af75d5b89ecd0ddbb1fee5f5368c99b94374&ipo=images',
-    tags: ['JavaScript', 'APIs', 'HTML', 'Tailwind CSS', 'React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL'],
-    githubUrl: 'https://github.com/Chameleon-company/MOP-Code',
+    id: 4,
+    title: 'Shipment Tracker',
+  description: 'A decentralized blockchain app for creating shipments, adding milestones, tracking progress, and verifying delivery with transparent, immutable records and no single point of failure.',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-4pFI8psSI0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2f788cfb383c42ab8ec12de4eb39c310799279f64d251a3f4be335ba0d40a3c4',
+    tags: ['Solidity', 'JavaScript', 'CSS', 'HTML'],
+    githubUrl: 'https://github.com/kyriesk/Shipment-Tracker',
     liveUrl: 'https://example.com'
+    
   },
 ];
 

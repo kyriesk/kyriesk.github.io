@@ -31,7 +31,7 @@ const About = () => {
               <div className="absolute w-32 h-32 bg-indigo-600 opacity-10 rounded-full -top-10 -left-10"></div>
               <div className="absolute w-32 h-32 bg-blue-500 opacity-10 rounded-full -bottom-10 -right-10"></div>
               <div className="aspect-w-4 aspect-h-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-6xl">👩‍💻</span>
+                <span className="text-6xl"><img src="src\assets\event.jpg" alt="event image"></img> </span>
               </div>
             </div>
           </motion.div>
@@ -46,8 +46,7 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold mb-2">Who I Am</h3>
               <p className="text-gray-600">
-                I'm a Final-year Master of Information Technology student at Deakin University majoring in Software Engineering, with hands-on experience in full-stack web development and AI-driven programming. 
-                Led backend team for the Melbourne Open Data Playground project.
+                Recent <strong>Master of Information Technology (Software Engineering)</strong> graduate from Deakin University with <strong>2+ years of AI model evaluation experience</strong> and hands-on expertise in <strong>full-stack development</strong>, <strong>cloud technologies</strong>, and <strong>software testing</strong>. Proven leadership experience as <strong>Backend Team Lead</strong> for the Melbourne Open Data Playground project and <strong>SplashKit Core Sub-Project Lead</strong>, delivering scalable software solutions, improving code quality through automated testing, and collaborating effectively in Agile teams. Proficient in <strong>Java, C#, JavaScript, React, Node.js, PostgreSQL, Docker, Kubernetes, Azure, Git</strong>, with a passion for developing high-quality, user-focused software.
               </p>
             </div>
 

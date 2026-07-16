@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="relative w-96 h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 to-blue-500 opacity-20 rounded-full"></div>
               <div className="absolute inset-4 bg-white rounded-full flex items-center justify-center">
-                <span className="text-6xl">👩‍💻</span>
+                <span className="text-6xl"><img src="src\assets\self.jpg" alt="self image" /></span>
               </div>
             </div>
           </motion.div>
