@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             <div className="mt-4">
               <a href="mailto:s223733951@deakin.edu.au" className="text-gray-300 hover:text-white transition-opacity">
-                s223733951@deakin.edu.au
+                omertosa09@gmail.com
               </a>
             </div>
           </div>
